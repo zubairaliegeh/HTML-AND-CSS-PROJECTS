@@ -1,0 +1,80 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+nav {
+    background-color: #2e7d32;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffeb3b;
+}
+
+header {
+    background-color: #e8f5e9;
+    text-align: center;
+    padding: 35px 15px;
+}
+
+header h1 {
+    color: #2e7d32;
+}
+
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+article,
+section#about,
+section#contact {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+article h3 {
+    color: #2e7d32;
+}
+
+footer {
+    background-color: #2e7d32;
+    color: white;
+    text-align: center;
+    padding: 12px;
+}
+
+@media (max-width: 600px) {
+    nav ul {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    main {
+        padding: 10px;
+    }
+}
